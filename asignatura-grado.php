@@ -5,7 +5,7 @@
         <?php
         if(isset($_POST["crear"])){
             if($_POST["asignatura"]==NULL | $_POST["grado"]==NULL ){
-    	        //Si el nombre esta vacío no haremos nada
+    	        //Si el nombre esta vacío no haremos nadaj
     	        echo'
     	                <div class=" mx-auto alert alert-success alert-dismissible fade show" role="alert">
                 	       <font color="#338AFF"><p><b>Para crear una materia debes rellenar la materia y el nombre de la asignatura.</b></p></font>
